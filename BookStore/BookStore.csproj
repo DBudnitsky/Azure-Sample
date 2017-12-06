@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <ApplicationInsightsResourceId>/subscriptions/90d000d1-617f-4a07-9f0f-7bcc561b3979/resourcegroups/TestAccount/providers/microsoft.insights/components/test</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/90d000d1-617f-4a07-9f0f-7bcc561b3979/resourcegroups/TestAccount/providers/microsoft.insights/components/test</ApplicationInsightsAnnotationResourceId>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -172,21 +173,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Bookstore.mdf" />
-    <Content Include="App_Data\Bookstore_log.ldf">
-      <DependentUpon>Bookstore.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\SoccerInfo.mdf" />
-    <Content Include="App_Data\SoccerInfo_log.ldf">
-      <DependentUpon>SoccerInfo.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\StudentsContext.mdf" />
-    <Content Include="App_Data\StudentsContext_log.ldf">
-      <DependentUpon>StudentsContext.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\Test.mdf" />
-    <Content Include="App_Data\Test_log.ldf">
-      <DependentUpon>Test.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
